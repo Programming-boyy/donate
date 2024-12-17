@@ -1,9 +1,0 @@
-CREATE TABLE posts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_name VARCHAR(255) NOT NULL,
-    blood_type VARCHAR(10) NOT NULL,
-    hospital VARCHAR(255) NOT NULL,
-    phone VARCHAR(15) NOT NULL,
-    caption VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
